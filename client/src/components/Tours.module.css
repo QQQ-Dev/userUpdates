@@ -1,0 +1,13 @@
+.container .content .block {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.container .content .block .left img {
+    width: 100%;
+}
+
+.container .content .block .right {
+    width: 100%;
+}

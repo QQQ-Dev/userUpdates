@@ -1,0 +1,25 @@
+.hotelinfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(197, 197, 238);
+    border-radius: 10px !important;
+}
+
+.right img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.left {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.left .content {
+    background-color: rgb(188, 188, 223);
+    border-radius: 20px;
+    padding: 5px;
+}
