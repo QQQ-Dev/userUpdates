@@ -18,7 +18,7 @@ export const CreatePage = () => {
   return (
     <div className={m.container} id={m.carousel} style={{ paddingTop: 30 }}>
       <div className="carousel carousel-slider center" id={m.maincenter}>
-        <a href='/links'>
+        <a href='/tours'>
           <div id={m.carousel_item} className="carousel-item  white-text" href="#one!">
             <div className={m.image}>
               <img src='https://avatars.mds.yandex.net/i?id=57b2075ca7f5ee4feead84758aeefdb6-5590531-images-thumbs&n=13' className={m.img} />
@@ -29,7 +29,7 @@ export const CreatePage = () => {
             </div>
           </div>
         </a>
-        <a href='/links'>
+        <a href='/tours'>
           <div id={m.carousel_item} className="carousel-item  white-text" href="#one!">
             <div className={m.image}>
               <img src='https://avatars.mds.yandex.net/i?id=57b2075ca7f5ee4feead84758aeefdb6-5590531-images-thumbs&n=13' className={m.img} />
@@ -40,7 +40,7 @@ export const CreatePage = () => {
             </div>
           </div>
         </a>
-        <a href='/links'>
+        <a href='/tours'>
           <div id={m.carousel_item} className="carousel-item  white-text" href="#one!">
             <div className={m.image}>
               <img src='https://avatars.mds.yandex.net/i?id=57b2075ca7f5ee4feead84758aeefdb6-5590531-images-thumbs&n=13' className={m.img} />
@@ -51,7 +51,7 @@ export const CreatePage = () => {
             </div>
           </div>
         </a>
-        <a href='/links'>
+        <a href='/tours'>
           <div id={m.carousel_item} className="carousel-item  white-text" href="#one!">
             <div className={m.image}>
               <img src='https://avatars.mds.yandex.net/i?id=57b2075ca7f5ee4feead84758aeefdb6-5590531-images-thumbs&n=13' className={m.img} />
@@ -62,7 +62,7 @@ export const CreatePage = () => {
             </div>
           </div>
         </a>
-        <a href='/links'>
+        <a href='/tours'>
           <div id={m.carousel_item} className="carousel-item  white-text" href="#one!">
             <div className={m.image}>
               <img src='https://avatars.mds.yandex.net/i?id=57b2075ca7f5ee4feead84758aeefdb6-5590531-images-thumbs&n=13' className={m.img} />
@@ -74,7 +74,6 @@ export const CreatePage = () => {
           </div>
         </a>
       </div>
-      <Collapse />
     </div>
   )
 }

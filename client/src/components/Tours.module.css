@@ -1,13 +1,22 @@
+.container {
+    background-color: rgb(178, 178, 214) !important;
+    border-radius: 20px;
+}
+
 .container .content .block {
     display: flex;
     align-items: flex-start;
-    padding: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(138, 138, 173) !important;
 }
 
 .container .content .block .left img {
     width: 100%;
+    border-radius: 10%;
 }
 
 .container .content .block .right {
     width: 100%;
+    padding: 20px;
 }

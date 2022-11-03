@@ -1,7 +1,13 @@
+.rooms .grid {
+    background-color: rgb(194, 194, 229);
+    border-radius: 20px;
+}
+
 .rooms .grid .block {
     display: flex;
     align-items: flex-start;
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .left img {
